@@ -11,18 +11,17 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "grunt": "^1.0.4",
-    "grunt-contrib-cssmin": "*",
-    "grunt-contrib-qunit": "*",
-    "grunt-contrib-jshint": "*",
-    "grunt-contrib-uglify": "*",
+    "gulp": "^4.0.2",
+    "gulp-minify": "^3.1.0",
+    "gulp-rename": "^1.4.0",
     "matchdep": "*"
   },
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx gulp build"
   },
   "repository": {
     "type": "git",
