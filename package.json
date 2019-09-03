@@ -1,0 +1,52 @@
+{
+  "name": "radia",
+  "version": "1.0.0",
+  "description": "An npm package for radio button groups.",
+  "main": "./dist/radia.min.js",
+  "style": "./dist/radia.min.css",
+  "files": [
+    "src/*.css",
+    "src/*.js",
+    "dist"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-contrib-cssmin": "*",
+    "grunt-contrib-qunit": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-uglify": "*",
+    "matchdep": "*"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kovee98/radia.git"
+  },
+  "keywords": [
+    "radia",
+    "radio",
+    "group",
+    "NoJQuery",
+    "nojquery",
+    "vanilla",
+    "js",
+    "javascript",
+    "lightweight",
+    "simple",
+    "easy",
+    "customizable",
+    "customizability"
+  ],
+  "author": "Joshua Kovalchik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kovee98/radia/issues"
+  },
+  "homepage": "https://github.com/Kovee98/radia#readme"
+}
